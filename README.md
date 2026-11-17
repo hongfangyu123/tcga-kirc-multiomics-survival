@@ -2,6 +2,8 @@
 
 Can DNA methylation and gene expression predict survival in clear cell renal cell carcinoma **beyond what tumour stage and age already tell us?**
 
+This started as two coursework assignments and turned into a question I wanted to answer properly: if a tumour's molecular profile carries prognostic information, how much of it is genuinely new, and how much is just stage in disguise? The answer turned out to be "some, but less than it first looks", and the write-up below tries to be upfront about both halves.
+
 This project analyses 309 tumours from The Cancer Genome Atlas (TCGA-KIRC), each profiled on ~330,000 CpG methylation probes and ~16,000 genes, together with clinical follow-up of up to 12 years. It moves from exploratory analysis and genome-wide screening to multivariable prognostic models that are evaluated on held-out patients against a clinical benchmark.
 
 **Tools:** R · survival · glmnet · randomForestSRC · qvalue · ggplot2 · survminer · ComplexHeatmap
