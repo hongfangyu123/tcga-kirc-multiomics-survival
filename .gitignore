@@ -1,0 +1,9 @@
+# Input data and large intermediate results are not tracked
+data/*
+!data/README.md
+output/
+*.rds
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store

@@ -1,0 +1,5 @@
+"model","mean_C","median_C","sd_C"
+"LASSO Cox",0.82,0.827,0.037
+"Elastic net Cox",0.832,0.834,0.03
+"Random survival forest",0.772,0.771,0.031
+"Clinical Cox (age + stage)",0.77,0.77,0.025
